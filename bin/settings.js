@@ -148,6 +148,12 @@ const FIELDS = [
     help: "What names an agent row: the session's title, its tab's name, or both.",
   },
   {
+    key: 'row_age',
+    kind: 'bool',
+    fallback: false,
+    help: 'Prefix an idle row with how long ago its agent last worked: (7m), (3h), (2d).',
+  },
+  {
     key: 'trim_group_prefix',
     kind: 'bool',
     fallback: true,
