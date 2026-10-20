@@ -154,6 +154,13 @@ const FIELDS = [
     help: 'Prefix an idle row with how long ago its agent last worked: (7m), (3h), (2d).',
   },
   {
+    key: 'spaces',
+    kind: 'enum',
+    options: ['agents', 'terminals'],
+    fallback: 'agents',
+    help: 'What the Spaces panel lists: agent state per workspace, or only workspaces with plain terminals.',
+  },
+  {
     key: 'trim_group_prefix',
     kind: 'bool',
     fallback: true,

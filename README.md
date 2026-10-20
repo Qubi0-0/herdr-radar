@@ -247,6 +247,8 @@ the config file and restarts the daemon.
 | `split_corner` | `false` | hang the other panes of a split screen off the first with a `├─` corner |
 | `reorder_workspaces` | `false` | make Herdr's workspace indices follow Radar's activity order |
 | `row_label` | `title` | what names an agent row: `title`, `tab` (the tab's name) or `both`; replaces `show_tab` |
+| `row_age` | `false` | put how long ago an idle agent last worked in front of its row: `(7m)`, `(3h)`, `(2d)` |
+| `spaces` | `agents` | `terminals` lists only workspaces holding panes with no agent, one `▸ tab` line per pane; with a Herdr that supports `hide_empty` the other workspaces leave the Spaces panel |
 | `trim_group_prefix` | `true` | drop the workspace name from a title when the header above already shows it |
 | `worktree_mark` | `U+F418` | the mark on a worktree header, needs a Nerd Font; empty for none |
 | `follow_appearance` | `true` | switch Herdr's theme with the desktop's light/dark |
