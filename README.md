@@ -245,6 +245,7 @@ the config file and restarts the daemon.
 | `group_indent` | `2` | spaces per tree level; `0` keeps headers and gaps but draws no tree lines; use `prefix+a` for the flat list |
 | `group_gap` | `true` | a blank row between groups |
 | `split_corner` | `false` | hang the other panes of a split screen off the first with a `├─` corner |
+| `split_header` | `false` | a named split screen gets a row with its tab's name; its panes sit under it as peers, each named by its session's title |
 | `reorder_workspaces` | `false` | make Herdr's workspace indices follow Radar's activity order |
 | `row_label` | `title` | what names an agent row: `title`, `tab` (the tab's name) or `both`; replaces `show_tab` |
 | `row_age` | `false` | put how long ago an idle agent last worked in front of its row: `(7m)`, `(3h)`, `(2d)` |

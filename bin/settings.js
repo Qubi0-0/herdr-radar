@@ -137,6 +137,12 @@ const FIELDS = [
     help: 'Hang the other panes of a split screen off the first with a corner; off draws them as plain rows.',
   },
   {
+    key: 'split_header',
+    kind: 'bool',
+    fallback: false,
+    help: "Put a named split screen's tab name on a row of its own, with its panes under it named by session title.",
+  },
+  {
     key: 'row_label',
     kind: 'enum',
     options: ['title', 'tab', 'both'],
